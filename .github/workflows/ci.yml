@@ -1,0 +1,15 @@
+name: CI
+on: { push: { branches: [main] }, pull_request: {}, workflow_dispatch: {} }
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '21', cache: maven }
+      - run: mvn -B verify
+      - run: grep -h -E "Tests run|CHATBOT" target/surefire-reports/*.txt target/surefire-reports/*-output.txt 2>/dev/null || true
+        if: always()
+      - run: mkdir bundle && cp target/application.jar Procfile bundle/ && (cd bundle && zip -r ../bundle.zip .)
+      - uses: actions/upload-artifact@v4
+        with: { name: eb-bundle, path: bundle.zip }

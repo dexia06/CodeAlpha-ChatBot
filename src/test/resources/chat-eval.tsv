@@ -1,0 +1,44 @@
+hi	greeting
+hello there	greeting
+good morning bot	greeting
+what can you do for me	bot
+are you a robot	bot
+how do I sign up	register
+I want to create an account	register
+registering a new user	register
+how can I log in	login
+I forgot my password	login
+sign in please	login
+how do I book a bus ticket	book
+I would like to buy a ticket	book
+steps to reserve a seat	book
+how much does a ticket cost	price
+what is the fare	price
+pricing of tickets	price
+which routes do you have	routes
+where can I travel to	routes
+show me all bus routes	routes
+can I book for 4 people	passengers
+is group booking possible	passengers
+how many passengers per ticket	passengers
+how far in advance can I book	date
+can I book for tomorrow	date
+I lost my ticket	lost
+my ticket is missing	lost
+how do I recover my ticket	lost
+someone stole my ticket	theft
+is my ticket safe from theft	theft
+how do I verify a ticket	verify
+check if a ticket is genuine	verify
+where can I see my previous bookings	history
+show my booking history	history
+how can I pay	payment
+do you accept UPI	payment
+can I cancel my booking	cancel
+I want a refund	cancel
+is my data secure	security
+how do I contact customer care	support
+I need to talk to a human	support
+thank you so much	thanks
+bye bye	bye
+goodbye	bye

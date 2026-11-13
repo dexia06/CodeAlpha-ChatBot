@@ -1,0 +1,20 @@
+# intent|input patterns separated by ;|response
+greeting|hi;hello;hey there;good morning;good evening;good afternoon|Hello! I'm the BusPass assistant. I can help with booking, fares, routes, tickets and your account. What would you like to know?
+bot|who are you;what can you do;are you a bot;help;what do you do|I'm the BusPass assistant. Ask me about booking, fares, routes, tickets or your account.
+register|register;sign up;create account;new account;how to join;open an account|To create an account, open the Account tab, choose Register and enter your name, email and a password of at least 8 characters.
+login|login;log in;sign in;cannot login;forgot password;reset password|Use the Login form with your email and password. Password reset is not available in this version, so please contact support if you are locked out.
+book|book ticket;book bus;buy ticket;reserve seat;make booking;book pass;how to book|To book: log in, pick a route on the Book tab, choose a travel date and the number of passengers, then press Book ticket. Your ticket appears instantly and is saved under My tickets.
+price|ticket price;how much;fare;pricing;bus fare;ticket cost;price of ticket|Fares are fixed per route and per passenger and are calculated by our server at booking time, so the price you see is the price you pay. Select a route on the Book tab to see its fare.
+routes|routes;available routes;which routes;bus routes;where can i travel;destinations;list routes;show routes|Available routes: Trichy-Chennai, Chennai-Trichy, Trichy-Madurai, Madurai-Trichy, Trichy-Coimbatore, Chennai-Bengaluru, Bengaluru-Chennai, Madurai-Chennai. Open the Book tab to see times and fares.
+passengers|how many passengers;group booking;multiple tickets;number of passengers;book for family;book for friends;book for people;how many people;several people|You can book 1 to 6 passengers on one ticket. The total is the route fare multiplied by the number of passengers.
+date|travel date;advance booking;how early can i book;which dates;book for tomorrow;future date|You can book for today or any day up to 60 days ahead. Choose the date on the Book tab.
+lost|lost ticket;ticket lost;find my ticket;retrieve ticket;recover ticket;ticket disappeared|Tickets cannot be lost: every booking is stored in our cloud database. Log in and open My tickets to view it again at any time.
+theft|ticket stolen;ticket theft;is my ticket safe;ticket security;duplicate ticket;someone used my ticket|Each ticket is tied to your account and carries a tamper-proof digital signature. Only you can see your bookings, and anyone can check a ticket's authenticity with its verification link.
+verify|verify ticket;check ticket authentic;validate ticket;verification link;is ticket authentic|Every ticket shows a verification link. Open it to confirm that the ticket is authentic and to see its route, date and passengers.
+history|booking history;my tickets;past bookings;previous tickets;previous bookings;see bookings;view bookings;my bookings|Open the My tickets tab to see all your bookings, newest first.
+payment|payment;pay online;payment methods;how to pay;payment options|Online payment is not connected in this version, so bookings are confirmed without a payment step.
+cancel|cancel ticket;cancel booking;change booking;modify booking;money back|Cancellation, changes and refunds are not supported in this version. Please contact support for help.
+security|is it secure;is my data safe;password safe;privacy;data security|Passwords are stored as salted hashes, sessions use random tokens and all booking data lives in a managed cloud database.
+support|contact support;customer care;help desk;phone number;email support;talk to human;contact us|You can reach support at support@buspass.example (placeholder address - replace before commercial use).
+thanks|thanks;thank you;thank you so much;thanks a lot;awesome;great thanks;appreciate it|You're welcome! Anything else I can help with?
+bye|bye;goodbye;see you;exit;quit;see you later|Goodbye! Have a safe journey.
